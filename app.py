@@ -6,6 +6,7 @@ import seaborn as sns
 import joblib
 
 from eda_app import run_eda_app
+from ml_app import run_ml_app
 
 
 
@@ -22,6 +23,9 @@ def main():
         run_eda_app()
 
     elif choice == '인공지능' :
+        run_ml_app()
+        
+        
         
         
 
