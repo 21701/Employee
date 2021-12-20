@@ -51,6 +51,7 @@ def run_ml_app():
         education_masters = 1
         education_bachelors = 0
         education_phd = 0
+        
     elif education == '기타':
         education_phd = 1
         education_bachelors = 0
