@@ -17,7 +17,7 @@ def main():
     choice = st.sidebar.selectbox('메뉴',menu)
     
     if choice == '홈' :
-        st.subheader('직원 퇴사 예측')
+        st.subheader('직원의 정보를 입력하면 퇴사를 예측')
 
     elif choice == '데이터분석':
         run_eda_app()
